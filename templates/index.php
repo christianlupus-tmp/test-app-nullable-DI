@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 use OCP\Util;
 
-Util::addScript(OCA\AppTemplate\AppInfo\Application::APP_ID, OCA\AppTemplate\AppInfo\Application::APP_ID . '-main');
-Util::addStyle(OCA\AppTemplate\AppInfo\Application::APP_ID, OCA\AppTemplate\AppInfo\Application::APP_ID . '-main');
-
 ?>
 
-<div id="app_template"></div>
+<div id="app_template" style="background-color: white; padding: 30px; width: 100%;">I can reads something</div>
