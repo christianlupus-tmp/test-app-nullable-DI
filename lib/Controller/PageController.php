@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OCA\AppTemplate\Controller;
+namespace OCA\TestNullableDi\Controller;
 
 use OCA\AppTemplate\AppInfo\Application;
 use OCP\AppFramework\Controller;
