@@ -22,5 +22,26 @@
 			<icon>app.svg</icon>
 			<type>link</type>
 		</navigation>
+		<navigation>
+			<id>test_nullable_di_invalid</id>
+			<name>App Template invalid</name>
+			<route>test_nullable_di.invalidpage.indexinvalid</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+		<navigation>
+			<id>test_nullable_di_nullable</id>
+			<name>App Template invalid</name>
+			<route>test_nullable_di.nullablepage.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+		<navigation>
+			<id>test_nullable_di_transitive</id>
+			<name>App Template invalid</name>
+			<route>test_nullable_di.transitivepage.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
 	</navigations>
 </info>
